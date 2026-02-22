@@ -1,0 +1,39 @@
+NOTES
+
+TO TURN ON NOSLEEP:
+search >NoSleep: Enable
+
+nk-ilc 
+    batch size: 32
+
+    n_top_genes - validation accuracy
+        3000 - 71.94% 
+        2000 - 74.96%
+        1200 - 74.45%
+        1600 - 75.13%
+        1800 - 75.22%
+        1800 - 74.69%
+
+cd8t-gdt-mait 
+        1800 - 79.99%
+        2000 - 79.96%
+
+cd4t-treg-dnt
+        1800 - 76.92%
+
+mono
+        1800 - 87.83%
+        2000 - 87.19%
+        2000 - 87.83%
+        1600 - 87.54%
+        1000 - 85.48%
+        1800 - 86.81%
+
+b-plasma
+        1800 - 69.97%x  
+
+dc 
+        1800 - 58.65%
+
+other
+        1800 - 52.97%
